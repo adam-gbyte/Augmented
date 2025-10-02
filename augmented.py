@@ -108,10 +108,10 @@ def add_gaussian_noise(img: Image.Image, mean: float=0.0, std: float=10.0, clip:
 
 def random_augment(
     img: Image.Image,
-    rotate_range: Tuple[float,float]=(-15,15),
+    rotate_range: Tuple[float,float]=(-10,10),
     flip_prob: float=0.5,
-    zoom_range: Tuple[float,float]=(0.9,1.2),
-    translate_frac: Tuple[float,float]=(-0.1,0.1),
+    zoom_range: Tuple[float,float]=(0.9,1.1),
+    translate_frac: Tuple[float,float]=(-0.01,0.01),
     brightness_range: Tuple[float,float]=(0.8,1.2),
     contrast_range: Tuple[float,float]=(0.8,1.2),
     noise_std_range: Tuple[float,float]=(0.0,15.0),
