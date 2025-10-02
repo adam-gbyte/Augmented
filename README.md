@@ -13,6 +13,8 @@ Fitur:
 
 Usage examples:
 ```bash
-python augment.py --input path/to/image.jpg --outdir augmented/ --n 20
+python augment.py --input path/to/image.jpg --outdir dataset/augmented/ --n 20
+```
+```bash
 python augment.py --indir dataset/images --outdir dataset/augmented --n-per-image 5
 ```
