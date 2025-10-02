@@ -1,4 +1,3 @@
-augment.py
 Simple image augmentation toolkit using Pillow + numpy.
 
 Fitur:
