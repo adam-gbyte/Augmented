@@ -1,4 +1,11 @@
 Simple image augmentation toolkit using Pillow + numpy.
+```bash
+pip install pillow
+```
+```bash
+pip install numpy
+```
+
 
 Fitur:
 - rotasi (degree)
